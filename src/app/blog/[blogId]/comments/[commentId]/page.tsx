@@ -1,8 +1,8 @@
 import React from 'react'
 
-const commentId = ({params}: {params: {commentId: string}}) => {
+const commentId = ({params}: {params: {commentId: string, blogId: string}}) => {
   return (
-    <div>This is the {params.commentId} comment and it is good</div>
+    <div>This is the {params.commentId} comment for the {params.blogId} blog and it is good</div>
   )
 }
 
