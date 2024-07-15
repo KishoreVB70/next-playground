@@ -5,8 +5,8 @@ const Docs = ({params}: {params: {slugs: string[]}}) => {
   return (
     <div>
       This is the documentation home page with
-      {slugs.length === 1 && <h1>Welcome to the Concept {slugs[0]} page</h1>}
-      {slugs.length === 2 && <h1>Welcome to the Example {slugs[1]} page of concept{slugs[0]}</h1>}
+      {slugs?.length === 1 && <h1>Welcome to the Concept {slugs[0]} page</h1>}
+      {slugs?.length === 2 && <h1>Welcome to the Example {slugs[1]} page of concept{slugs[0]}</h1>}
     </div>
   )
 }
