@@ -8,7 +8,6 @@ export default function Home() {
         <li><Link href={"/blog"} >blog</Link></li>
         <li><Link href={"/documentation"} >Docs</Link></li>
       </ul>
-      <button className="hover:-translate-y-1 hover:border-red-600 transition duration-300 hover:bg-white hover:text-black border border-white px-3 py-1 text-white" >Login</button>
       <h1>Hello world</h1>
     </main>
   );
