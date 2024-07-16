@@ -7,6 +7,7 @@ export default function Home() {
         <li><Link href={"/about"} >About</Link></li>
         <li><Link href={"/blog"} >blog</Link></li>
         <li><Link href={"/documentation"} >Docs</Link></li>
+        <li><Link href={"/dash"} >Dashboard</Link></li>
       </ul>
       <h1>Hello world</h1>
     </main>
