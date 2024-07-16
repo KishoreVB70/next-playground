@@ -9,7 +9,7 @@ export default function Home() {
         <li><Link href={"/documentation"} >Docs</Link></li>
         <li><Link href={"/dash"} >Dashboard</Link></li>
       </ul>
-      <h1>Hello world</h1>
+      <h1>{new Date().toLocaleTimeString()}</h1>
     </main>
   );
 }

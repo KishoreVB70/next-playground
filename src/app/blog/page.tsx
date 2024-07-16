@@ -11,9 +11,9 @@ const Blog = () => {
 
   const randomValue = getRandom();
 
-  if(randomValue === 1) {
-    throw new Error("Value is 1 brotha")
-  }
+  // if(randomValue === 1) {
+  //   throw new Error("Value is 1 brotha")
+  // }
 
   return (
       <div className='flex justify-center' >

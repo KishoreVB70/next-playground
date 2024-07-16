@@ -8,11 +8,11 @@ type props = {
   };
 }
 
-export const generateMetaData = ({params}: props):Metadata => {
-  return {
-    title: `Blog ${params.blogId}`,
-  }
-}
+// export const generateMetaData = ({params}: props):Metadata => {
+//   return {
+//     title: `Blog ${params.blogId}`,
+//   }
+// }
 
 const Id = ({params}: props) => {
   return (
