@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react'
-import ProductDetail from './ProductDetail'
-import ProductReview from './ProductReview'
+import ProductReview from '@/components/ProductReview'
+import ProductDetail from '@/components/ProductDetail'
 const Product = () => {
   return (
     <div>
