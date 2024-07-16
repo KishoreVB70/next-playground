@@ -19,4 +19,5 @@ export const ThemeProvider = ({children}: {children: React.ReactNode}) => {
   )
 }
 
+//The children can directly use useContext(ThemeContext);
 export const useTheme = () => useContext(ThemeContext);
