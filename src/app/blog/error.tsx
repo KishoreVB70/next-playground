@@ -1,8 +1,8 @@
 import React from 'react'
 
-const ErrorBoundary = () => {
+const ErrorBoundary = ({error}: {error: Error}) => {
   return (
-    <div>ErrorBoundary in blog page</div>
+    <div>ErrorBoundary in blog page - {error.message}</div>
   )
 }
 
