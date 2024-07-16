@@ -2,11 +2,11 @@
 import React, { createContext, useContext } from 'react'
 
 type Theme = {
-    primaryColor: string,
-    secondaryColor: string
+  primaryColor: string,
+  secondaryColor: string
 }
 
-const defaultTheme = {primaryColor: "blue", secondaryColor: "peach"}
+const defaultTheme = {primaryColor: "pink", secondaryColor: "peach"}
 
 const ThemeContext = createContext<Theme>(defaultTheme);
 
